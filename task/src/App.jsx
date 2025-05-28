@@ -1,3 +1,4 @@
+// GitHub Repository: https://github.com/Suraj182004/CBL/tree/main/task
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom'
 import DisplayFormData from './DisplayFormData'
@@ -273,6 +274,18 @@ function MainForm() {
         Submit
       </button>
     </form>
+    <footer className="text-center mt-8 mb-4">
+      <p>
+        <a 
+          href="https://github.com/Suraj182004/CBL/tree/main/task" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-700 underline"
+        >
+          View on GitHub
+        </a>
+      </p>
+    </footer>
     </>
   )
 }
