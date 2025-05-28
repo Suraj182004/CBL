@@ -2,6 +2,10 @@
 
 This project is a single-page application built with React and Vite that demonstrates a user registration form with comprehensive client-side validation and routing.
 
+## Live Demo
+
+[View the deployed application here](https://formvalidationtask.vercel.app/)
+
 ## Features
 
 -   **Dynamic Form Fields:** Includes inputs for First Name, Last Name, Username, E-mail, Password (with show/hide toggle), Phone Number (country code + number), Country (dropdown), City (dropdown, dependent on country), PAN No., and Aadhar No.
